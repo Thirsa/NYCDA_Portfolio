@@ -1,0 +1,326 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+/*@media only screen and (min-width: 800px) {*/
+
+html, body {
+	width: 100%;
+	height:100%;
+}
+
+body {
+	/*width: : 100%;*/
+	/*height:970px;*/
+	/*background-color: grey;*/
+	background-image: url("../img/003-granulated-loom.png");
+	/*margin-top: 50px;*/
+	/*border: 4px solid red;*/
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+body #container {
+	height: 60%;
+	width:400%;
+	position: absolute;
+	/*background-color: grey;*/
+	/*border: 1px solid green;*/
+	/*padding: 0px;*/
+	margin-top: 200px;
+	/*opacity: 0.4;*/
+}
+
+header{ 
+
+	/*line-height: 15px;*/
+
+ }
+
+header li a {
+	width: 25%;
+	display: block;
+	/*border: 1px solid black;*/
+	float: left;
+	height: 50px;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 50px;
+	color: white;
+	background-color: black;
+    -webkit-transition: .8s all ease-out;
+    /*-moz-transition: .5s all ease-out;*/
+    /*transition: .5s all ease-out;	*/
+}
+
+header li {
+	/*line-height: 15px;*/
+	/*width: 100%;*/
+	/*position: relative;*/
+
+}
+
+header ul {
+	/*width: 100%;*/
+	/*line-height: 15px;*/
+	width: 100%;
+	/*top:0px	;*/
+	position: fixed;
+	/*right:0px;	*/
+	height: 50px;
+	/*border: 1px solid black;*/
+	list-style-type: none;
+	z-index: 1;
+}
+
+header li a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+header li a:visited {
+	/*background-color: green;*/
+	/*color: white;*/
+}
+
+.active {
+	background-color: white;
+	color: black;
+}
+
+#firstPage {
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid yellow;*/	
+	text-align: center;
+}
+
+#home {
+	width: 25%;
+	height: 100%;
+	/*margin-top: 230px;*/
+	
+	float: left;
+	/*margin-left: 200px;*/
+	/*padding: 0px;*/ 
+	/*padding-top: 25%;*/
+	/*margin-left: 300px;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	background-color: rgba(0,0,0,0.7);
+
+	/*background-color: black;*/
+	color: green;
+	font-size: 30px;
+	/*padding-left: 10px;	*/
+	/*text-align: center;*/
+	/*border: 1px solid black;*/
+	/*border-radius: 1em;*/
+	/*opacity: 0.8;*/
+    /*-webkit-transition: 3s all ease-out;*/
+}
+
+.fade {
+	/*display: none;*/
+}
+
+#homeText {
+
+	float: left;
+	/*margin-top: -260px;*/
+	/*margin-left: 500px;*/
+	/*border-top: 2px solid red;*/	
+	/*margin-top: 15%;*/	
+	width: 50%;
+	height: 95%;
+	/*padding-top: 15%;*/
+	text-align: center;
+	/*padding: 0px;*/
+}
+
+#pic {
+	/*margin-left: 300px;*/
+	float:left;	
+	/*width: 10px;*/
+	/*height: 50px;*/
+	/*margin-left: 50px;*/
+	/*margin-top: 15%;*/
+	/*padding-top: 15%;*/
+	/*opacity: 0.6;*/
+	/*z-index: 1;*/
+	/*border-top: 2px solid red;*/
+	width: 50%;
+	height: 95%;
+	/*height: 260px;*/
+}
+
+/*#githubpic, #linkedinpic {
+	z-index: 1;
+	position: relative;
+}*/
+
+#webDevWork {
+	width: 25%;
+	height: 100%;
+	float: left;
+	/*float: right;*/
+	/*margin-left: 200px;*/
+	/*margin-top: 230px;*/
+	/*padding: 0px;*/ 
+	/*padding-top: 25%;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: lightblue;*/
+	color: green;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgba(173, 216, 230, 0.7);
+	display: none;
+	/*border: 1px solid black;*/
+	/*border-radius: 1em;*/
+	/*opacity: 0.4;*/
+	/*display: none;*/
+    /*-webkit-transition: 3s all ease-out;*/
+}
+
+#innerWebDevWork, #innerAbout, #innerMoreWork{
+	height: 95%;
+	width: 95%;
+	/*border:2px solid yellow;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#webDevWork ul{
+
+	list-style-type: none
+}
+
+#about {
+	width: 25%;
+	height: 100%;
+	float: left;
+	/*margin-left: 200px;*/
+	/*margin-top: 25px;*/
+	/*padding: 0px;*/ 
+	/*padding-top: 25px;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*background-color: lightyellow;*/
+	background-color: rgba(255,255,224, 0.7);
+	display: none;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+	/*border: 1px solid black;*/
+	/*border-radius: 1em;*/
+}
+
+#moreWork {
+	width: 25%;
+	height: 100%;
+	float: left;
+	/*margin-left: 200px;*/
+	/*margin-top: 25%;*/
+	/*padding: 0px;*/ 
+	/*padding-top: 25%;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*background-color: lightgrey;*/
+	background-color: rgba(211,211,211, 0.7);
+	display: none;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+	/*border: 1px solid black;*/
+	/*border-radius: 1em;*/
+}
+
+#contact {
+	border: 2px solid red;	
+	/*height: 100px;*/
+	position: fixed;
+
+	height: 10%;
+	width: 20%;
+	/*border-radius: 2em;*/
+	margin-left: 40%;
+	/*margin-right: auto;*/
+	/*margin-left: 45%;*/
+	/*margin-right: 50%;*/
+	margin-top: 40%;	
+	z-index: 1;
+	/*text-align: center;*/
+}
+
+.contact {
+	/*padding-left: 30%;*/
+	/*float: left;*/
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact1 , #contact2{
+	/*border: 1px solid green;*/
+	width: 48%;
+	height: 100%;
+}
+
+#contact1 a{
+	/*float: right;	*/
+}
+
+#contact2 a{
+	/*float: left;*/
+	/*border: 1px solid blue;*/
+}
+
+#skills {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+#projects {
+	float: right; 
+	width: 80%;
+	height: 100%;
+
+}
+
+#projects div {
+	float: right;
+	width: 33%;
+	height: 49%;
+	border: 1px solid red;
+
+}
+
+
+/*}*/
+/*@media only screen and (min-width: 600px) {
+
+	header li a {
+		width: 50%;
+		display: block;
+		/*border: 1px solid black;*/
+/*		float: left;
+		height: 50px;
+		text-align: center;
+		font-size: 2em;
+		text-decoration: none;
+		line-height: 50px;
+		color: grey;*/
+		/*background-color: cyan;*/
+
+
+	/*}*/
+
+/*}*/
