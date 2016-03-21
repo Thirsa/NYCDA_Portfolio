@@ -148,13 +148,13 @@ header li a:visited {
 	/*width: 10px;*/
 	/*height: 50px;*/
 	/*margin-left: 50px;*/
-	/*margin-top: 15%;*/
+	margin-top: 12%;
 	/*padding-top: 15%;*/
 	/*opacity: 0.6;*/
 	/*z-index: 1;*/
-	/*border-top: 2px solid red;*/
+	/*border: 2px solid red;*/	
 	width: 50%;
-	height: 95%;
+	height: 70%;
 	/*height: 260px;*/
 }
 
@@ -243,7 +243,7 @@ header li a:visited {
 }
 
 #contact {
-	border: 2px solid red;	
+	/*border: 2px solid red;	*/
 	/*height: 100px;*/
 	position: fixed;
 
@@ -283,14 +283,16 @@ header li a:visited {
 }
 
 #skills {
+	margin-top:10px;
 	float: left;
 	width: 20%;
-	height: 100%;
+	height: 90%;
+	/*border: 1px solid red;*/
 }
 
 #projects {
 	float: right; 
-	width: 80%;
+	width: 60%;
 	height: 100%;
 
 }
@@ -299,8 +301,33 @@ header li a:visited {
 	float: right;
 	width: 33%;
 	height: 49%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
+}
+
+table {
+	/*width: 90%;*/
+	width: 1500px;
+	height: 95%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;	
+
+}
+
+.tableText {
+	word-wrap: break-word;
+	/*width: 30%;*/
+	width: 500px;
+	height: 95%;
+
+}
+
+td {
+
+	/*width: 30%*/	 
+	padding: 10px;
+	border: 1px solid black;
 }
 
 
