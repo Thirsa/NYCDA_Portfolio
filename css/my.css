@@ -15,6 +15,7 @@ body {
 	/*height:970px;*/
 	/*background-color: grey;*/
 	background-image: url("../img/003-granulated-loom.png");
+	font-family: sans-serif;
 	/*margin-top: 50px;*/
 	/*border: 4px solid red;*/
 	overflow-y: auto;
@@ -90,12 +91,21 @@ header li a:visited {
 	color: black;
 }
 
-#firstPage {
-	width: 50%;
+#firstPage, #innerWebDevWork, #innerAbout, #innerMoreWork{
 	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	/*border: 2px solid yellow;*/	
+	width: 100%;
+	border:2px solid yellow;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+
+
+#firstPage {
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*border: 2px solid yellow;	*/
 	text-align: center;
 }
 
@@ -114,8 +124,8 @@ header li a:visited {
 	background-color: rgba(0,0,0,0.7);
 
 	/*background-color: black;*/
-	color: green;
-	font-size: 30px;
+	/*color: green;*/
+	/*font-size: 30px;*/
 	/*padding-left: 10px;	*/
 	/*text-align: center;*/
 	/*border: 1px solid black;*/
@@ -130,15 +140,19 @@ header li a:visited {
 
 #homeText {
 
-	float: left;
+	float: right;
 	/*margin-top: -260px;*/
 	/*margin-left: 500px;*/
-	/*border-top: 2px solid red;*/	
-	/*margin-top: 15%;*/	
+	border: 2px solid red;	
+	/*margin-top: 15%;*/
+	/*display: inline-block;	*/
 	width: 50%;
-	height: 95%;
+	height: 100%;
 	/*padding-top: 15%;*/
-	text-align: center;
+	text-align: left;
+	font-size: 1.7em;
+	/*font-size: 30px;*/
+	overflow: auto;
 	/*padding: 0px;*/
 }
 
@@ -148,13 +162,16 @@ header li a:visited {
 	/*width: 10px;*/
 	/*height: 50px;*/
 	/*margin-left: 50px;*/
-	margin-top: 12%;
+	/*display: inline-block;*/
+	/*margin-top: 12%;*/
+	text-align: right;
 	/*padding-top: 15%;*/
 	/*opacity: 0.6;*/
 	/*z-index: 1;*/
-	/*border: 2px solid red;*/	
-	width: 50%;
-	height: 70%;
+	border: 2px solid red;	
+	width: 49%;
+	height: 100%;
+	overflow: auto;
 	/*height: 260px;*/
 }
 
@@ -175,10 +192,13 @@ header li a:visited {
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: lightblue;*/
-	color: green;
+	/*color: green;*/
+	color:#FFFF99;
 	font-size: 20px;
 	text-align: center;
-	background-color: rgba(173, 216, 230, 0.7);
+	/*background-color: rgba(173, 216, 230, 0.7);*/
+	background-color: rgba(0,0,0,0.7);
+
 	display: none;
 	/*border: 1px solid black;*/
 	/*border-radius: 1em;*/
@@ -187,13 +207,7 @@ header li a:visited {
     /*-webkit-transition: 3s all ease-out;*/
 }
 
-#innerWebDevWork, #innerAbout, #innerMoreWork{
-	height: 95%;
-	width: 95%;
-	/*border:2px solid yellow;*/
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 
 
@@ -213,7 +227,9 @@ header li a:visited {
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
 	/*background-color: lightyellow;*/
-	background-color: rgba(255,255,224, 0.7);
+	/*background-color: rgba(255,255,224, 0.7);*/
+	background-color: rgba(0,0,0,0.7);
+
 	display: none;
 	color: green;
 	font-size: 25px;
@@ -233,7 +249,9 @@ header li a:visited {
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
 	/*background-color: lightgrey;*/
-	background-color: rgba(211,211,211, 0.7);
+	/*background-color: rgba(211,211,211, 0.7);*/
+	background-color: rgba(0,0,0,0.7);
+
 	display: none;
 	color: green;
 	font-size: 25px;
@@ -255,7 +273,7 @@ header li a:visited {
 	/*margin-left: 45%;*/
 	/*margin-right: 50%;*/
 	margin-top: 40%;	
-	z-index: 1;
+	/*z-index: 1;*/
 	/*text-align: center;*/
 }
 
@@ -307,8 +325,8 @@ header li a:visited {
 
 table {
 	/*width: 90%;*/
-	width: 1500px;
-	height: 95%;
+	width: 100%;
+	height: 100%;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;	
@@ -318,36 +336,203 @@ table {
 .tableText {
 	word-wrap: break-word;
 	/*width: 30%;*/
-	width: 500px;
-	height: 95%;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
 
 }
 
 td {
 
-	/*width: 30%*/	 
+	/*width: 30%	 */
 	padding: 10px;
 	border: 1px solid black;
 }
 
 
-/*}*/
-/*@media only screen and (min-width: 600px) {
+
+@media only screen and (max-width: 1120px) {
+
+	body #container {
+		height: 90%;
+		/*width:400%;*/
+		/*position: absolute;*/
+		/*background-color: grey;*/
+		/*border: 1px solid green;*/
+		/*padding: 0px;*/
+		margin-top: 50px;
+		/*opacity: 0.4;*/
+	}
+
+	#firstPage {
+	width: 100%;
+	/*height: 100%;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*border: 2px solid yellow;*/	
+	text-align: center;
+	}	
+
+	#homeText {
+
+		/*float: left;*/
+		/*display: inline-block;*/
+		/*margin-top: -260px;*/
+		/*margin-left: 500px;*/
+		border: 2px solid red;	
+		/*margin-top: 15%;*/	
+		width: 100%;
+		height: 70%;
+		/*padding-top: 15%;*/
+		/*text-align: left;*/
+		/*font-size: 0.8em;*/
+		overflow: auto;
+		text-align: center;
+		/*padding: 0px;*/
+	}
+
+	#pic {
+		text-align: center;
+		/*margin-left: 300px;*/
+		/*float:left;	*/
+		/*display: inline-block;*/
+		/*width: 10px;*/
+		/*height: 50px;*/
+		/*margin-left: 25%;*/
+		/*margin-left: auto;		*/
+		/*margin-right: auto;*/
+		/*margin-top: 12%;*/
+		/*padding-top: 15%;*/
+		/*opacity: 0.6;*/
+		/*z-index: 1;*/
+		border: 2px solid red;	
+		width: 100%;
+		height: 30%;
+		/*height: 260px;*/
+	}
+
+	
+}
+
+@media only screen and (max-height: : 800px) {
+
+	body #container {
+		/*height: 150%;*/
+		/*width:400%;*/
+		/*position: absolute;*/
+		/*background-color: grey;*/
+		/*border: 1px solid green;*/
+		/*padding: 0px;*/
+		/*margin-top: 50px;*/
+		/*opacity: 0.4;*/
+	}
+
+	#firstPage {
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*border: 2px solid yellow;*/	
+	/*text-align: center;*/
+}	
+
+	#homeText {
+
+		/*float: left;*/
+		/*display: inline-block;*/
+		/*margin-top: -260px;*/
+		/*margin-left: 500px;*/
+		/*border: 2px solid red;	*/
+		/*margin-top: 15%;*/	
+		/*width: 90%;*/
+		/*height: 60%;*/
+		/*padding-top: 15%;*/
+		/*text-align: left;*/
+		/*font-size: 0.8em;*/
+		/*overflow: auto;*/
+		/*padding: 0px;*/
+	}
+
+	#pic {
+		/*margin-left: 300px;*/
+		/*float:left;	*/
+		/*display: inline-block;*/
+		/*width: 10px;*/
+		/*height: 50px;*/
+		/*margin-left: 25%;*/
+		/*margin-right: auto;*/
+		/*margin-top: 12%;*/
+		/*padding-top: 15%;*/
+		/*opacity: 0.6;*/
+		/*z-index: 1;*/
+		/*border: 2px solid red;	*/
+		/*width: 50%;*/
+		/*height: 30%;*/
+		/*height: 260px;*/
+	}
+
+	
+}
+
+@media only screen and (max-width: 700px) {
 
 	header li a {
 		width: 50%;
-		display: block;
-		/*border: 1px solid black;*/
-/*		float: left;
-		height: 50px;
-		text-align: center;
-		font-size: 2em;
-		text-decoration: none;
-		line-height: 50px;
-		color: grey;*/
-		/*background-color: cyan;*/
+	}
+
+		body #container {
+		/*height: 100%;*/
+		/*width:400%;*/
+		/*position: absolute;*/
+		/*background-color: grey;*/
+		/*border: 1px solid green;*/
+		/*padding: 0px;*/
+		margin-top: 100px;
+		/*opacity: 0.4;*/
+	}
+
+}
+
+@media only screen and (max-width: 325px) {
+
+	header li a {
+		width: 100%;
+	}
 
 
-	/*}*/
+		body #container {
+		/*height: 100%;*/
+		/*width:400%;*/
+		/*position: absolute;*/
+		/*background-color: grey;*/
+		/*border: 1px solid green;*/
+		/*padding: 0px;*/
+		margin-top: 200px;
+		/*opacity: 0.4;*/
+	}
+}
 
-/*}*/
+@media only screen and (max-width: 175px) {
+
+	header li a {
+		/*width: 100%;*/
+		font-size: 1.5em;
+	}
+
+		#homeText {
+
+		/*float: left;*/
+		/*display: inline-block;*/
+		/*margin-top: -260px;*/
+		/*margin-left: 500px;*/
+		/*border: 2px solid red;	*/
+		/*margin-top: 15%;*/	
+		/*width: 90%;*/
+		/*height: 60%;*/
+		/*padding-top: 15%;*/
+		/*text-align: left;*/
+		font-size: 0.5em;
+		/*overflow: auto;*/
+		/*padding: 0px;*/
+	}
+}
