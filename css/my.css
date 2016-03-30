@@ -385,7 +385,7 @@ td {
 		height: 70%;
 		/*padding-top: 15%;*/
 		/*text-align: left;*/
-		/*font-size: 0.8em;*/
+		font-size: 1.2em;
 		overflow: auto;
 		text-align: center;
 		/*padding: 0px;*/
@@ -410,7 +410,10 @@ td {
 		height: 30%;
 		/*height: 260px;*/
 	}
-
+	#pic img {
+		height: 180px;
+		width: auto;
+	}
 	
 }
 
@@ -448,7 +451,7 @@ td {
 		/*height: 60%;*/
 		/*padding-top: 15%;*/
 		/*text-align: left;*/
-		/*font-size: 0.8em;*/
+		font-size: 0.8em;
 		/*overflow: auto;*/
 		/*padding: 0px;*/
 	}
@@ -470,6 +473,12 @@ td {
 		/*height: 30%;*/
 		/*height: 260px;*/
 	}
+
+		#pic img {
+		height: 120px;
+		/*width: auto;*/
+	}
+	
 
 	
 }
